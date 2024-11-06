@@ -81,7 +81,7 @@ def import_run(
             use_src_user_id,
             in_databricks
         )
-        _import_inputs(http_client, src_run_dct, run_id)
+        #_import_inputs(http_client, src_run_dct, run_id)
 
         path = _fs.mk_local_path(os.path.join(input_dir, "artifacts"))
         if os.path.exists(path):
